@@ -1,3 +1,8 @@
+# Data Structures in JS
+
+These are some of my notes from following along what I considered a great class on udemy:
+https://www.udemy.com/learning-data-structures-in-javascript-from-scratch/learn/v4/overview
+
 ### Linked List
 
 Singly-Linked List: stores reference to next node only, as well as a value
