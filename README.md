@@ -7,6 +7,17 @@ Note that a lot of these notes need editing and filling in the blanks - feel fre
 
 I am adding links to all the resources I have used. However, some of those classes are paid classes, so should anyone feel like I am violating their copyrights by posting my notes, please let me know and I will take them down.
 
+## Practice Projects
+* Harry Potter Trivia https://github.com/maike-hilda/TriviaGame
+* Harry Potter Themed site that allows you to conjure gifs from giphy API https://github.com/maike-hilda/giphyAPI
+* Letter Guessing Game https://github.com/maike-hilda/Psychic-Game
+* Train Scheduler https://github.com/maike-hilda/trainScheduler
+* Flashcard Constructors in nodeJS https://github.com/maike-hilda/Flashcard-Generator
+
+## Group Projects
+* Live Local https://github.com/maike-hilda/LiveLocal
+* Market Monster https://github.com/maike-hilda/market-monster
+
 ## JS Basics and Beyond
 
 My favorite JavaScript book: https://github.com/getify/You-Dont-Know-JS.
@@ -17,9 +28,9 @@ This book has taught me a lot on how to play towards the strenghts of JS. The au
 
 ## ES6
 
-This is a great class to learn ES6 and really JS in general, since he compares old vs new features while showing examples that teach a lot about DOM manipulation and good coding standards as well: http://wesbos.com/es6-for-everyone/
+This is a great class to learn ES6 and really JS in general, since he compares old vs new features while showing examples that teach a lot about DOM manipulation and good coding standards: http://wesbos.com/es6-for-everyone/
 
-[My notes on ES6](https://github.com/maike-hilda/usefulJavaScript/blob/master/ES6/ES6_notes.md) // still in the gitignore file --> editing those right now
+[My notes on ES6](https://github.com/maike-hilda/usefulJavaScript/blob/master/ES6/ES6_notes.md) // still in the gitignore file --> editing those right now to use my own examples
 
 ## React
 This course actually goes over all the ES6 concepts needed to use react, no need to learn ES6 beforehand
@@ -31,7 +42,7 @@ https://completereactcourse.com/
 
 Pros: very to the point, helpful animations
 
-Cons: not a lot of practice, mostly listening, so you need to find ways to use these concepts in your own application. 
+Cons: not a lot of practice, mostly listening, so you'll need to find ways to use these concepts in your own application. 
 
 ## Algorithms
 
@@ -60,6 +71,6 @@ In JS, functions are subtype of Object. We can store a function in a variable, s
 
 ## Object Oriented JS
 
-## Projects
+
 
 
