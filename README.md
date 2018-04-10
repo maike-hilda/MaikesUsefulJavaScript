@@ -12,7 +12,9 @@ I am adding links to all the resources I have used. However, some of those class
 * Harry Potter Themed page with giphyAPI calls https://github.com/maike-hilda/giphyAPI
 * Letter Guessing Game https://github.com/maike-hilda/Psychic-Game
 * Train Scheduler https://github.com/maike-hilda/trainScheduler
-* Flashcard Constructors in nodeJS https://github.com/maike-hilda/Flashcard-Generator
+* Flashcard Constructors in **nodeJS** https://github.com/maike-hilda/Flashcard-Generator
+* Application to track inventory in **nodeJS** https://github.com/maike-hilda/bamazon
+* LIRI bot command line application in **nodeJS** https://github.com/maike-hilda/liri-node-app
 * Local authorization with passport (skeleton for the market-monster project) https://github.com/maike-hilda/local-authorization
 * https://github.com/maike-hilda/FriendFinder
 * https://github.com/maike-hilda/BurgerApp
@@ -24,7 +26,6 @@ I am adding links to all the resources I have used. However, some of those class
 
 
 ## JS Basics and Beyond
-
 My favorite JavaScript book: https://github.com/getify/You-Dont-Know-JS.
 
 This book has taught me a lot on how to play towards the strenghts of JS. The author made me a strong advocate for the case of learning JS specifically rather than relying on the fact that I can program in other languages. I can now say that I love programming in JS, and this book taught me how to use it right rather than just making things work with brute force. 
@@ -32,7 +33,6 @@ This book has taught me a lot on how to play towards the strenghts of JS. The au
 [Here](https://javascript30.com/) is a free 30 day challenge for Vanilla JavaScript by Wes Bos. I have yet to complete this one (I have started...). The good part about this one is: a lot of coding --> a lot of learning.
 
 ## ES6
-
 This is a great class to learn ES6 and really JS in general, since he compares old vs new features while showing examples that teach a lot about DOM manipulation and good coding standards: http://wesbos.com/es6-for-everyone/
 
 [My notes on ES6](https://github.com/maike-hilda/usefulJavaScript/blob/master/ES6/ES6_notes.md) // still in the gitignore file --> editing those right now to use my own examples
@@ -42,7 +42,6 @@ This course actually goes over all the ES6 concepts needed to use react, no need
 https://completereactcourse.com/
 
 ## Data Structures in JS
-
 [My notes on Data Structures in JS](https://github.com/maike-hilda/usefulJavaScript/blob/master/dataStructures.md)
 
 Pros: very to the point, helpful animations
@@ -52,7 +51,6 @@ Cons: not a lot of practice, mostly listening, so you'll need to find ways to us
 ## Algorithms
 
 ## Code Editors
-
 My favorite is VS Code (the integrated terminal (I use bash on windows) is just the best. 
 
 Here are some useful shortcuts: https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
@@ -61,7 +59,6 @@ And after installing Emmet, this comes in handy too: https://docs.emmet.io/cheat
 Note that newer versions no longer use *tab* for expanding shortcuts by default (which is a good thing once you get used to it, since that gives the *tab* back for, well, tabs. Use *Ctrl+Space* instead.
 
 ## Recursion
-
 Video in progress
 
 ## Functional Programming
@@ -75,7 +72,3 @@ In JS, functions are subtype of Object. We can store a function in a variable, s
 ## Promises
 
 ## Object Oriented JS
-
-
-
-
