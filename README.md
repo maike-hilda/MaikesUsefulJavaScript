@@ -9,14 +9,19 @@ I am adding links to all the resources I have used. However, some of those class
 
 ## Practice Projects
 * Harry Potter Trivia https://github.com/maike-hilda/TriviaGame
-* Harry Potter Themed site that allows you to conjure gifs from giphy API https://github.com/maike-hilda/giphyAPI
+* Harry Potter Themed page with giphyAPI calls https://github.com/maike-hilda/giphyAPI
 * Letter Guessing Game https://github.com/maike-hilda/Psychic-Game
 * Train Scheduler https://github.com/maike-hilda/trainScheduler
 * Flashcard Constructors in nodeJS https://github.com/maike-hilda/Flashcard-Generator
+* Local authorization with passport (skeleton for the market-monster project) https://github.com/maike-hilda/local-authorization
+* https://github.com/maike-hilda/FriendFinder
+* https://github.com/maike-hilda/BurgerApp
+* google o-auth from command line https://github.com/maike-hilda/googleOauth2 (outdated Express - I don't recommend copying this one)
 
 ## Group Projects
 * Live Local https://github.com/maike-hilda/LiveLocal
 * Market Monster https://github.com/maike-hilda/market-monster
+
 
 ## JS Basics and Beyond
 
