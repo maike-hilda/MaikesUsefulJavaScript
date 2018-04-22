@@ -4,13 +4,15 @@
 // this is a divide and conquer algorithm
 // i.e. we divide the problem up into subproblems, solve those, then combine solutions
 function mergeSort(arr) {
+    // for recursion
     if (arr.length < 2) {
         return arr;
     } 
+    // find the split point
     const middle = Math.floor(arr.length / 2);
     const arr1 = arr.slice(0, middle);
     const arr2 = arr.slice(middle);
-    console.log(arr1, arr2);
+    // call 
     return merge(mergeSort(arr1), mergeSort(arr2));
 } 
 

@@ -51,7 +51,16 @@ Pros: very to the point, helpful animations
 
 Cons: not a lot of practice, mostly listening, so you'll need to find ways to use these concepts in your own application. 
 
-## Algorithms
+## Algorithms / Coding Interview Practice
+
+## Big-O 
+http://bigocheatsheet.com/
+
+Big-O notates time complexity i.e. performance. There are three types of Big-O notation you will likely run into:
+
+* Big-\theta - asymptotically bounds above and below --> Average Performance
+* Big-\Omega - bound below --> Best Performance
+* Big-O - bound above --> Worst Performance
 
 ## Code Editors
 My favorite is VS Code (the integrated terminal (I use bash on windows) is just the best. 
