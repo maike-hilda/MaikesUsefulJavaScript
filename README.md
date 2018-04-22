@@ -52,6 +52,11 @@ Pros: very to the point, helpful animations
 Cons: not a lot of practice, mostly listening, so you'll need to find ways to use these concepts in your own application. 
 
 ## Algorithms / Coding Interview Practice
+Here are some algorithms worth writing out a few times before a coding interview. I often made versions with and without recursion.
+
+Most of them are my own work, some of them have improvements I made using anything I could find on google, and some are algorithms I found and improved.
+
+https://github.com/maike-hilda/usefulJavaScript/tree/master/InterviewQuestions
 
 ## Big-O 
 http://bigocheatsheet.com/
