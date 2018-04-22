@@ -8,7 +8,7 @@ Note that a lot of these notes need editing and filling in the blanks - feel fre
 I am adding links to all the resources I have used. However, some of those classes are paid classes, so should anyone feel like I am violating their copyrights by posting my notes, please let me know and I will take them down.
 
 ## Portfolio
-https://github.com/maike-hilda/portfolio
+https://github.com/maike-hilda/portfolio (right now this is just an app that allows to upload a portfolio item with image, description, links which will be stored in a mongodb (MEN-stack + ejs view engine) - RESTful routes practice, mainly)
 
 ## Practice Projects
 * Harry Potter Trivia https://github.com/maike-hilda/TriviaGame
