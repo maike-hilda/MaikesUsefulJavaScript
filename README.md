@@ -13,7 +13,7 @@ I am adding links to all the resources I have used. However, some of those class
 * Letter Guessing Game https://github.com/maike-hilda/Psychic-Game
 * Train Scheduler https://github.com/maike-hilda/trainScheduler
 * Flashcard Constructors in **nodeJS** https://github.com/maike-hilda/Flashcard-Generator
-* Application to track inventory in **nodeJS** https://github.com/maike-hilda/bamazon
+* Application to track inventory in **nodeJS** using npm inquirer https://github.com/maike-hilda/bamazon
 * LIRI bot command line application in **nodeJS** https://github.com/maike-hilda/liri-node-app
 * Local authorization with passport (skeleton for the market-monster project) https://github.com/maike-hilda/local-authorization
 * https://github.com/maike-hilda/FriendFinder
