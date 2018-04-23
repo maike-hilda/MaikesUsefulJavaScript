@@ -24,3 +24,9 @@ console.log(closureTwo(3));
 // what is returned is another function which we invoke 
 // that returns another function which we envoke i.e. we invoke 3 times
 console.log(tripleAdd(10)(20)(30));
+
+// this is a curried function 
+// closure: accessing a variable outside of a function's scope
+// currying: can use e.g. to avoid always having to pass tripleAdd(10)
+// go from one function that takes multiple arguments to a sequence of functions
+// that each take a single (or multiple) argument(s)
