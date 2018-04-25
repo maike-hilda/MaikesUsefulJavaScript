@@ -74,6 +74,11 @@ Has accesss to its own and the outer function(s) parameters
 
 Protects variables from the global scope.
 
+The power of a closure is that it remembers the enironment it was created in i.e. variables that would otherwise be long lost from the outer function; they can also manipulate the variables in the outer function
+
+emulate private classes since we only have access to the inner function by calling the outer
+
+
 ## Currying
 see tripeAdd.js
 
@@ -104,8 +109,8 @@ myCar.logColor();
 abstract equality (does not test for data type --> coercion) vs. strict equality (does test for data type)
 
 * string == num --> string is coerced to number
-* boolean vs non-boolean --> non-boolean is coerced to boolean
-* object vs primitive data type --> object converted to primitive data type
+* boolean vs non-boolean --> non-boolean is coerced to boolean (I'm not sure this is right, I have read both)
+* object vs primitive data type --> object converted to primitive data type 
 
 ## "use strict"
 * enforce stricter parsing and error handling
@@ -433,4 +438,28 @@ function y() {
 y();
  
 console.log(x); // 10
+```
+
+## more this and bind
+```javascript
+const account1 = {
+  name: 'Jen',
+  totalAmount: 5000,
+  deductAmount: function(amount) {
+    this.totalAmount -= amount;
+    return 'Amount in account: ' + this.totalAmount;
+  },
+};
+ 
+const account2 = {
+  name: 'James',
+  totalAmount: 8000,
+};
+ 
+const withdrawFromAccount = function(amount) {
+  return account1.deductAmount.bind(account2, amount);
+};
+ 
+console.log(withdrawFromAccount(500)()); // 7500
+console.log(withdrawFromAccount(200)()); // 7300
 ```

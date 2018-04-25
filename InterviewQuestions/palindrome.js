@@ -50,3 +50,17 @@ function isPalindrome(string) {
 }
    
 isPalindrome("Madam, I'm Adam");
+
+function isPalindromeFancy(phrase) {
+    const valid = [..."abcdefghijklmnopqrstuvwxyz"];
+    phrase = phrase.toLowerCase();
+    const testArr = []
+    for (let i = 0; i < phrase.length; i++) {
+        if (valid.includes(phrase[i])) {
+            testArr.push(phrase[i]);
+        }
+    }
+    return testArr === testArr.reverse();
+}
+
+console.log(isPalindromeFancy("Madam I'm Adam"));

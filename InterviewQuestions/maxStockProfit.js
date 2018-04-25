@@ -29,5 +29,5 @@ function maxStockProfit(arr) {
     return diff;
 }
 
-console.log(maxStockProfit([32, 46, 26, 38, 40, 48, 42]));
+console.log(maxStockProfit([32, 46, 26, 22, 38, 40, 48, 42]));
 console.log(maxStockProfit([44, 30, 24, 32, 35, 30, 40, 38, 15]));
