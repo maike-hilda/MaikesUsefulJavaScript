@@ -353,7 +353,7 @@ console.log([[1], [2], [3], [4]].indexOf([2]));
 ```
 
 ## Equivalent Numbers
-```console.log(900.9 === 300.3 * 3); // false``` in JS are IEEE 754 floating point numbers (binary encoded) --> 300.3 * 3 = 900.9000000000001
+```console.log(900.9 === 300.3 * 3); // false``` in JS are IEEE 754 *floating point numbers* (binary encoded) --> 300.3 * 3 = 900.9000000000001
 ```javascript
 console.log(Number((300.3 * 3).toFixed(2)));
 console.log(Number((300.3 * 3).toPrecision(12)));
@@ -438,6 +438,50 @@ function y() {
 y();
  
 console.log(x); // 10
+
+function x() {
+  function y() {
+    return 1;
+  }
+  return y();
+  function y() {
+    return 8;
+  }
+}
+
+console.log(x()); // 8, since both function y are hoisted to the top of the scope of x
+
+function foo() {
+  var hoisted = "hoisted var";
+  function hoisted() {
+    return "hoisted function"
+  }
+  return hoisted();
+}
+
+console.log(foo()); // TypeError: hoisted is not a function
+// the variable is ignored, the function is hoisted; hoisted is then assigned "hoisted var" which means calling hoisted() will give an error
+
+console.log(fun()); // 3
+
+function fun() {
+  var bar = function() {
+    return 3;
+  };
+  return bar()
+  var bar = function() {
+    return 8;
+  };
+}
+
+var bar = "bar";
+
+(function() {
+  console.log("original value: " + bar); // undefined
+  var bar = "notBar";
+  console.log("new value: " + bar); // notBar
+})();
+// bar is orignally hoisted as undefined to the top of the scope of the function; then it is assigned value "notBar"; the global bar is irrelevant since there is a local variable bar
 ```
 
 ## more this and bind
@@ -463,3 +507,24 @@ const withdrawFromAccount = function(amount) {
 console.log(withdrawFromAccount(500)()); // 7500
 console.log(withdrawFromAccount(200)()); // 7300
 ```
+
+## arguments vs parameters
+
+```javascript
+function foo(param1, param2, param3) {
+  // function stuff
+}
+
+foo(arg1, arg2, arg3);
+```
+
+* foo takes 3 parameters
+* foo can be called with any number of arguments, arguments in excess of 3 will be ignored, less arguments means the non specified arguments will be treated as undefined
+
+## Rest Parameters (ES6)
+```javascript
+function restParam(a, b, ...restParams) {
+  console.log(restParams.length);
+}
+```
+restParams is an array that holds all arguments beyond the inputs for a and b
