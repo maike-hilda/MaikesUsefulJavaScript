@@ -44,6 +44,8 @@ This is a great class to learn ES6 and really JS in general, since he compares o
 This course actually goes over all the ES6 concepts needed to use react, no need to learn ES6 beforehand
 https://completereactcourse.com/
 
+This is one of the things I built in this class (React with webpack, no Redux just yet): https://github.com/maike-hilda/reactAndWebpackExercise
+
 ## Data Structures in JS
 [My notes on Data Structures in JS](https://github.com/maike-hilda/usefulJavaScript/blob/master/dataStructures.md)
 
