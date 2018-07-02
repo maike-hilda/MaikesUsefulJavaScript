@@ -528,3 +528,7 @@ function restParam(a, b, ...restParams) {
 }
 ```
 restParams is an array that holds all arguments beyond the inputs for a and b
+
+## Random
+How would you see if a variable has been assigned yet?
+```typeOf(variable)``` --> if undefined, you know what's up :)

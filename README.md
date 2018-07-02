@@ -89,3 +89,8 @@ In JS, functions are subtype of Object. We can store a function in a variable, s
 ## Promises
 
 ## Object Oriented JS
+
+## CSS3
+This tutorial for ```{ display: flex }``` (i.e. flexbox) is really fun: https://mastery.games/p/flexbox-zombies
+
+...and so is this tutorial for ```{ display: grid }``` (i.e. CSS grid): http://cssgridgarden.com/
