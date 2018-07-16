@@ -74,15 +74,15 @@ Has accesss to its own and the outer function(s) parameters
 
 Protects variables from the global scope.
 
-The power of a closure is that it remembers the enironment it was created in i.e. variables that would otherwise be long lost from the outer function; they can also manipulate the variables in the outer function
+The power of a closure is that it remembers the enironment it was created in i.e. variables that would otherwise be long lost from the outer function; they can also manipulate the variables in the outer function; have access to its own scope, containing function's scope, global scope
 
 emulate private classes since we only have access to the inner function by calling the outer
 
 
 ## Currying
-see tripeAdd.js
+see tripleAdd.js
 
-## this keyword
+## *this* keyword
 refers to whatever object it is directly inside of
 
 e.g. in the browser, 'this' refers to the global window object
@@ -116,7 +116,7 @@ abstract equality (does not test for data type --> coercion) vs. strict equality
 * enforce stricter parsing and error handling
 * prevents use of global variables i.e. defining variables with var/let/const
 * function myFunc(a, a, b) { } // would get error
-* delte Object.prototype i.e. we'd not delete something that's native to JS but we also wouldn't get an error
+* delete Object.prototype i.e. we'd not delete something that's native to JS but we also wouldn't get an error
 
 ##
 ```javascript
@@ -241,7 +241,7 @@ const jsonObj = {
         "str": "abc",
         "num": 123
     }
-    // myData: [a data]
+    // myDate: [a date]
 };
 ```
 
@@ -345,14 +345,13 @@ var arr4 = new Array([1, 2, 3, 4, 5]); // [[1, 2, 3, 4, 5]]
 ## indexOf()
 ```javascript
 console.log([10, 20, 30, 40, 50].indexOf(30)); // 2
-console.log([{ name: 'Pam' }, { name: 'Kent' }].indexOf({ name: 'Kent' }));
-// -1 --> since objects are passed by reference
+console.log([{ name: 'Pam' }, { name: 'Kent' }].indexOf({ name: 'Kent' })); // -1 
 console.log('hello world'.indexOf('o')); // 4
-console.log([[1], [2], [3], [4]].indexOf([2])); 
-// -1 --> since objects are passed by reference
+console.log([[1], [2], [3], [4]].indexOf([2])); // -1 
 ```
 
 ## Equivalent Numbers
+We can never tell if will be equal - but probably not...
 ```console.log(900.9 === 300.3 * 3); // false``` in JS are IEEE 754 *floating point numbers* (binary encoded) --> 300.3 * 3 = 900.9000000000001
 ```javascript
 console.log(Number((300.3 * 3).toFixed(2)));
@@ -531,4 +530,5 @@ restParams is an array that holds all arguments beyond the inputs for a and b
 
 ## Random
 How would you see if a variable has been assigned yet?
-```typeOf(variable)``` --> if undefined, you know what's up :)
+```typeof(variable)``` --> if undefined, you know what's up :)
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        .button {
+            display: inline-block;
+            position: relative;
+            padding: 13px 50px;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 25px;
+            color: #535152;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 0 #e2e2e4;
+            border-radius: 12px;
+            box-shadow: 0px 1px 1px 1px #626262; 
+            background: linear-gradient(to bottom, #e0e0e0 0%,#d4d4d4 49%,#c6c6c6 50%,#aeaeae 100%); /* W3C */
+        }
+        
+        .button::after {
+            content: "";
+            display: block;
+            position: absolute;
+            z-index: -1;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 15px solid #cacaca;
+            border-radius: 16px;
+            box-shadow: 0px 2px 6px 0px #bbb; 
+        }
+        
+        .button::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid #fff;
+            border-radius: 18px;
+           box-shadow: 0px 0px 0px 2px #666666; 
+        }
+        
+        .button:hover {
+            background: linear-gradient(to bottom, #aeaeae 0%,#c6c6c6 50%,#d4d4d4 51%,#e0e0e0 100%); /* W3C */
+        }
+        
+        .button:active {
+            top: 1px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <a href="#" class="button">Checkout</a>
+</body>
+</html>
+
+
+
