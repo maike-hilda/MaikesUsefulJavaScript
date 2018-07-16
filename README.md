@@ -97,4 +97,4 @@ This tutorial for ```{ display: flex }``` (i.e. flexbox) is really fun: https://
 
 ...and so is this tutorial for ```{ display: grid }``` (i.e. CSS grid): http://cssgridgarden.com/
 
-Here is some CSS3 practice (using SASS as a preprocessor) - quite cool what CSS3 can do without needing any JS.
+Here is some CSS3 practice (using SASS as a preprocessor) - quite cool what CSS3 can do without needing any JS. https://github.com/maike-hilda/css-practice
